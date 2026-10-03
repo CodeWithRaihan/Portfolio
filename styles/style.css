@@ -88,3 +88,69 @@ nav ul li{
 .banner_text_contanent{
    max-width: 580px;
 }
+/* about section style start here */
+.about_section_titel{
+     font-weight: bold;
+     font-size: 35px;
+}
+.about_section_subtitel{
+     font-weight: 400;
+     font-size: 18px;
+}
+.about_section_container{
+    width: 118px 60px;
+    text-align: center;
+    padding: 130px;
+}
+.about_section_imtes{ 
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.about_section_imtes li{
+     list-style: none;
+
+}
+/* what i do section start here */
+.what_ido_container{
+     text-align: center;
+      width: 118px 60px;
+}
+
+.what_ido_titel{
+     font-weight: bold;
+     font-size: 35px;
+}
+.what_ido_text{
+    
+     font-weight: 400;
+     font-size: 18px;
+}
+
+/* cart section style here */
+.cart_container{
+     display: flex;
+     gap: 24px;
+     margin: auto 200px;
+}
+.cart{
+     width: 265px;
+     height: 375px;
+     border: 1px solid rgb(244, 239, 239);
+     padding: 30px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     box-shadow: 5px;
+     background-color: rgb(241, 233, 233);
+     border-radius: 5px;
+}
+
+.cart_icon{
+     width: 44px;
+     height: 44px;
+     margin-bottom: 0px;
+}
+.cart_title{
+     margin-top: 30px;
+}
