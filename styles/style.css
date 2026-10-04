@@ -154,3 +154,40 @@ nav ul li{
 .cart_title{
      margin-top: 30px;
 }
+/* resume styles start here */
+.resume_section{
+      max-width: 1140px 550px;
+      padding: 200px;
+      
+}
+.resume_container{
+      display: flex;
+      gap: 70px;
+}
+.resume_section_titel{
+      text-align: center;
+}
+.text_center{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+/* footer styles start here */
+.footer_container{
+      display: flex;
+      max-width: 1140px 550px; 
+      padding: 130px 200px
+}
+footer input[type="text"],
+        input[type="email"]
+       {
+          margin-top: 10px;
+      height: 60px;
+      border-radius: 5px;
+      background-color: white;
+      display: block;
+      width: 300px;
+}
+footer input[type="email"]{
+      margin-bottom: 10px;
+}
